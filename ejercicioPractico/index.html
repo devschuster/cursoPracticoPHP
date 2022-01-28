@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Descuentos</title>
+</head>
+<body>
+    <form action="./main.php" method="POST">
+        <label for="productQty">Indica la Cantidad de Productos a ingresar</label>
+        <input type="number" name="productQty" id="productQty" min="1" max="20" required/>
+        <label for="productDiscount">Ingresa el descuento a aplicar</label>
+        <input type="number" name="productDiscount" id="productDiscount" min="0" max="100" required/>
+        <button type="submit">Generar Calculadora de Descuentos</button>
+    </form>
+</body>
+</html>
